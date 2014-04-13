@@ -4,6 +4,7 @@ read <- function(x) {
      # path to project directory
      directory <- "C:/Users/Akhilkumar/Documents/Books/coursera/DS/UCI HAR Dataset/"
      read.table(paste0(directory, x))
+     }
 
 #Loading Train datasets
 subject_train <- read("train/subject_train.txt")

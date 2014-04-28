@@ -2,7 +2,7 @@
 #Setting the Path for the Project
 read <- function(x) {
      # path to project directory
-     directory <- "C:/Users/Akhilkumar/Documents/Books/coursera/DS/UCI HAR Dataset/"
+     directory <- "C:/Users/Akhilkumar/xxx/xxx/coursera/DS/UCI HAR Dataset/"
      read.table(paste0(directory, x))
      }
 

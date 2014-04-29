@@ -1,8 +1,8 @@
 #First lets load the data into R.
 #Setting the Path for the Project
+# path to project directory
 
-read <- function(x) {
-     # path to project directory
+read <- function(x) {     
      directory <- "C:/Users/Akhilkumar/xxx/xxx/coursera/DS/UCI HAR Dataset/"
      read.table(paste0(directory, x))
      }
